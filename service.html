@@ -515,6 +515,8 @@
       class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
+      <!-- Footer End -->
+
       <div class="container py-5">
         <div class="row g-5">
           <!-- Address Section -->
@@ -573,11 +575,14 @@
             <p>Stay updated with our latest services and offers.</p>
             <div class="position-relative mx-auto" style="max-width: 400px">
               <input
+                id="newsletter-email"
                 class="form-control border-0 w-100 py-3 ps-4 pe-5"
-                type="text"
+                type="email"
                 placeholder="Your email"
+                required
               />
               <button
+                id="subscribe-btn"
                 type="button"
                 class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
               >
@@ -638,6 +643,39 @@
           video.setAttribute("src", "");
         });
       });
+    </script>
+
+    <script>
+      document
+        .getElementById("subscribe-btn")
+        .addEventListener("click", async function () {
+          const email = document.getElementById("newsletter-email").value;
+          if (!email) {
+            alert("Please enter a valid email address.");
+            return;
+          }
+
+          try {
+            const response = await fetch("http://localhost:4500/subscribe", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ email }),
+            });
+
+            const data = await response.json();
+
+            if (response.ok) {
+              alert("Thank you for subscribing!");
+            } else {
+              alert("Error: " + data.message);
+            }
+          } catch (error) {
+            alert("Subscription failed. Please try again later.");
+            console.error("Error:", error);
+          }
+        });
     </script>
 
     <!-- JavaScript Libraries -->
