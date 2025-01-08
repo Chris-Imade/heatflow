@@ -340,7 +340,7 @@
             data-wow-delay="0.1s"
           >
             <i class="fa fa-check fa-2x text-white mb-3"></i>
-            <h2 class="text-white mb-2" data-toggle="counter-up">15</h2>
+            <h2 class="text-white mb-2" data-toggle="counter-up">7</h2>
             <p class="text-white mb-0">Years Experience</p>
           </div>
           <div
@@ -348,7 +348,7 @@
             data-wow-delay="0.3s"
           >
             <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
-            <h2 class="text-white mb-2" data-toggle="counter-up">500</h2>
+            <h2 class="text-white mb-2" data-toggle="counter-up">22</h2>
             <p class="text-white mb-0">Expert Technicians</p>
           </div>
           <div
@@ -356,7 +356,7 @@
             data-wow-delay="0.5s"
           >
             <i class="fa fa-users fa-2x text-white mb-3"></i>
-            <h2 class="text-white mb-2" data-toggle="counter-up">6789</h2>
+            <h2 class="text-white mb-2" data-toggle="counter-up">2371</h2>
             <p class="text-white mb-0">Satisfied Clients</p>
           </div>
           <div
@@ -364,8 +364,8 @@
             data-wow-delay="0.7s"
           >
             <i class="fa fa-wrench fa-2x text-white mb-3"></i>
-            <h2 class="text-white mb-2" data-toggle="counter-up">10985</h2>
-            <p class="text-white mb-0">Compleate Projects</p>
+            <h2 class="text-white mb-2" data-toggle="counter-up">573</h2>
+            <p class="text-white mb-0">Completed Projects</p>
           </div>
         </div>
       </div>
@@ -535,9 +535,9 @@
           <div class="col-lg-3 col-md-6">
             <h4 class="text-light mb-4">Opening Hours</h4>
             <h6 class="text-light">Monday - Friday:</h6>
-            <p class="mb-4">08:00 AM - 08:00 PM</p>
+            <p class="mb-4">09:00 AM - 06:00 PM</p>
             <h6 class="text-light">Saturday:</h6>
-            <p class="mb-4">09:00 AM - 05:00 PM</p>
+            <p class="mb-4">09:00 AM - 01:00 PM</p>
             <h6 class="text-light">Sunday:</h6>
             <p class="mb-0">Closed</p>
           </div>
@@ -617,13 +617,16 @@
           }
 
           try {
-            const response = await fetch("https://heatflow-server.onrender.com/subscribe", {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify({ email }),
-            });
+            const response = await fetch(
+              "https://heatflow-server.onrender.com/subscribe",
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ email }),
+              }
+            );
 
             const data = await response.json();
 
@@ -638,6 +641,18 @@
           }
         });
     </script>
+
+    <!-- Chatbot -->
+    <script>
+      window.chtlConfig = { chatbotId: "4678181688" };
+    </script>
+    <script
+      async
+      data-id="4678181688"
+      id="chatling-embed-script"
+      type="text/javascript"
+      src="https://chatling.ai/js/embed.js"
+    ></script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

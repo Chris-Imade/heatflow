@@ -6,7 +6,12 @@
   --dark: #521717;
 }
 
-.bg-dark, .btn-primary {
+.back-to-top {
+  display: none !important;
+}
+
+.bg-dark,
+.btn-primary {
   background-color: var(--dark) !important;
 }
 
@@ -20,7 +25,7 @@
 
 .back-to-top {
   position: fixed;
-  display: none;
+  display: none !important;
   right: 45px;
   bottom: 45px;
   z-index: 99;
