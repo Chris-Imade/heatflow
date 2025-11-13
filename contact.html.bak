@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>HeatFlow Experts | Get a Quote</title>
+    <title>HeatFlow Experts | Contact Us</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+    <link rel="icon" href="img/logo.ico" type="image/x-icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,10 +17,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
         rel="stylesheet" />
 
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
@@ -32,51 +34,6 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
-    <link href="default.css" rel="stylesheet" />
-
-    <style>
-        .service-checkbox {
-            margin-bottom: 10px;
-        }
-
-        .form-check-label {
-            margin-left: 5px;
-        }
-
-        .form-section {
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            padding: 25px;
-            margin-bottom: 30px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-        }
-
-        .form-section h4 {
-            color: #0d6efd;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #0d6efd;
-        }
-
-        .quote-benefits {
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            padding: 30px;
-            height: 100%;
-        }
-
-        .benefit-item {
-            display: flex;
-            margin-bottom: 20px;
-        }
-
-        .benefit-icon {
-            font-size: 24px;
-            color: #0d6efd;
-            margin-right: 15px;
-            margin-top: 5px;
-        }
-    </style>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -132,7 +89,6 @@
         <div class="container-fluid nav-bar bg-light">
             <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
                 <a href="index.html" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
-                    <img src="img/logo.png" alt="HeatFlow Experts Logo" style="width: 200px" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -142,8 +98,8 @@
                         <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="quote.html" class="nav-item nav-link active">Get a Quote</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="quote.html" class="nav-item nav-link">Get a Quote</a>
+                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
                     </div>
                     <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
@@ -163,161 +119,113 @@
         <!-- Page Header Start -->
         <div class="container-fluid page-header mb-5 py-5">
             <div class="container">
-                <h1 class="display-3 text-white mb-3 animated slideInDown">Get a Free Quote</h1>
+                <h1 class="display-3 text-white mb-3 animated slideInDown">
+                    Contact Us
+                </h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb text-uppercase">
-                        <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                        <li class="breadcrumb-item text-white active" aria-current="page">Get a Quote</li>
+                        <li class="breadcrumb-item">
+                            <a class="text-white" href="#">Home</a>
+                        </li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">
+                            Contact
+                        </li>
                     </ol>
                 </nav>
             </div>
         </div>
         <!-- Page Header End -->
 
-        <!-- Quote Form Start -->
+        <!-- Contact Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s"
-                        style="background: linear-gradient(#EDF1FC,#0d6efdd9), url('img/quote-bg.jpg') no-repeat center center; background-size: cover; min-height: 600px; border-radius: 8px; display: flex; align-items: center;">
-                        <div class="p-5 text-white">
-                            <h1 class="mb-4">Request a Free Quote</h1>
-                            <p class="mb-4">
-                                Fill out the form and one of our experts will get back to you within 24 hours with a
-                                personalised quote for your project.
-                                All fields marked with <span class="text-danger">*</span> are required.
-                            </p>
-                            <div class="d-flex align-items-center mb-4">
-                                <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle me-3"
-                                    style="width: 50px; height: 50px;">
-                                    <i class="fa fa-phone-alt text-white"></i>
-                                </div>
-                                <div>
-                                    <h5 class="mb-0">Prefer to speak to someone?</h5>
-                                    <p class="mb-0">Call us at <a href="tel:01604908464" class="text-primary">01604
-                                            908464</a></p>
-                                </div>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle me-3"
-                                    style="width: 50px; height: 50px;">
-                                    <i class="fa fa-envelope text-white"></i>
-                                </div>
-                                <div>
-                                    <h5 class="mb-0">Email us directly</h5>
-                                    <p class="mb-0"><a href="mailto:info@heatflowexperts.co.uk"
-                                            class="text-primary">info@heatflowexperts.co.uk</a></p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row g-4">
+                    <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-secondary text-uppercase">Get In Touch</h6>
+                        <h1 class="mb-4">How Can We Help You Today?</h1>
+                        <p class="mb-4">
+                            We’re dedicated to providing top-quality plumbing, heating, ventilation, and air
+                            conditioning
+                            services. Whether you need to book a service, request a consultation, or have questions
+                            about
+                            our solutions, we’re here for you. Contact us now—our friendly team is ready to assist you
+                            every
+                            step of the way!
+                        </p>
+                        <iframe class="position-relative w-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6317.837667630723!2d-0.7074369171557402!3d52.30244467819756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877e94277aeb83d%3A0x153ea3b7c4bdefb8!2sWellingborough%2C%20Northamptonshire%2C%20UK!5e0!3m2!1sen!2suk!4v1603794290143!5m2!1sen!2suk"
+                            frameborder="0" style="height: 300px; border: 0" allowfullscreen="" aria-hidden="false"
+                            tabindex="0"></iframe>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <form id="quoteForm" data-form-type="quote" class="bg-light p-5 needs-validation" novalidate>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="firstName" name="firstName"
-                                            placeholder="Your First Name" required>
-                                        <label for="firstName">First Name <span class="text-danger">*</span></label>
+                    <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-light p-5 h-100 d-flex align-items-center">
+                            <form data-form-type="contact" id="contactForm" class="needs-validation" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" name="name"
+                                                placeholder="Your Name" required minlength="2" maxlength="100"
+                                                autocomplete="name" />
+                                            <label for="name">Your Name</label>
+                                            <div class="invalid-feedback">
+                                                Please enter your name (2-100 characters).
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                placeholder="Your Email" required
+                                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                                autocomplete="email" />
+                                            <label for="email">Your Email</label>
+                                            <div class="invalid-feedback">
+                                                Please enter a valid email address.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" name="subject"
+                                                placeholder="Subject" required minlength="5" maxlength="200"
+                                                autocomplete="off" />
+                                            <label for="subject">Subject</label>
+                                            <div class="invalid-feedback">
+                                                Please enter a subject (5-200 characters).
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here"
+                                                id="message" name="message" style="height: 150px" required
+                                                minlength="10" maxlength="2000"></textarea>
+                                            <label for="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="checkbox" name="privacyPolicyAccepted"
+                                                id="privacyPolicyContact" required>
+                                            <label class="form-check-label" for="privacyPolicyContact">
+                                                I agree to the <a href="privacy.html">Privacy Policy</a>
+                                            </label>
+                                        </div>
+                                        <button class="btn btn-primary w-100 py-3" type="submit" id="contactSubmit">
+                                            <span class="submit-text">Send Message</span>
+                                            <span class="spinner-border spinner-border-sm ms-2 d-none" role="status"
+                                                aria-hidden="true"></span>
+                                        </button>
+                                        <div class="form-text mt-2">We'll get back to you within 24 hours</div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="lastName" name="lastName"
-                                            placeholder="Your Last Name" required>
-                                        <label for="lastName">Last Name <span class="text-danger">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" name="email"
-                                            placeholder="Your Email" required>
-                                        <label for="email">Email Address <span class="text-danger">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="tel" class="form-control" id="phone" name="phone"
-                                            placeholder="Your Phone" required>
-                                        <label for="phone">Phone Number <span class="text-danger">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="address" name="address"
-                                            placeholder="Your Address" required>
-                                        <label for="address">Property Address <span class="text-danger">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <select class="form-select" id="serviceType" name="serviceType" required>
-                                            <option value="" selected disabled>Select a service</option>
-                                            <option value="boiler">Boiler Installation & Servicing</option>
-                                            <option value="heat-pump">Heat Pumps</option>
-                                            <option value="ac">Air Conditioning & Ventilation</option>
-                                            <option value="smart">Smart Thermostats & Zoning</option>
-                                            <option value="plumbing">Plumbing & Maintenance</option>
-                                            <optgroup label="Cleaning Services">
-                                                <option value="cleaning-regular">Regular Domestic Cleaning</option>
-                                                <option value="cleaning-deep">Deep Cleaning</option>
-                                                <option value="cleaning-tenancy">End of Tenancy Cleaning</option>
-                                                <option value="cleaning-office">Office Cleaning</option>
-                                                <option value="cleaning-airbnb">Airbnb Turnaround</option>
-                                                <option value="cleaning-oven">Oven/Carpet Add-ons</option>
-                                            </optgroup>
-                                            <option value="other">Other Services</option>
-                                        </select>
-                                        <label for="serviceType">Service Needed <span
-                                                class="text-danger">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <select class="form-select" id="timeframe" name="timeframe" required>
-                                            <option value="" selected disabled>Select timeframe</option>
-                                            <option value="urgent">Urgent - Within 24 hours</option>
-                                            <option value="1week">Within 1 week</option>
-                                            <option value="2weeks">Within 2 weeks</option>
-                                            <option value="1month">Within 1 month</option>
-                                            <option value="flexible">Flexible timing</option>
-                                        </select>
-                                        <label for="timeframe">When do you need the service? <span
-                                                class="text-danger">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Tell us more about your project"
-                                            id="message" name="message" style="height: 150px"></textarea>
-                                        <label for="message">Project Details</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" id="privacyPolicy"
-                                            name="privacyPolicy" required>
-                                        <label class="form-check-label" for="privacyPolicy">
-                                            I agree to the <a href="#">Privacy Policy</a> and consent to my data being
-                                            processed. <span class="text-danger">*</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit" id="quoteSubmit">
-                                        <span class="submit-text">Request Free Quote</span>
-                                        <span class="spinner-border spinner-border-sm ms-2 d-none" role="status"
-                                            aria-hidden="true"></span>
-                                    </button>
-                                    <div class="form-text mt-2">We'll provide a customized quote within 24 hours</div>
-                                </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Quote Form End -->
+        <!-- Contact End -->
     </main>
     <!-- End Main Content Wrapper -->
 
@@ -372,8 +280,7 @@
                     <a class="btn btn-link" href="service.html">Plumbing Repairs</a>
                     <a class="btn btn-link" href="service.html">Heating Installation</a>
                     <a class="btn btn-link" href="service.html">Air Conditioning</a>
-                    <a class="btn btn-link" href="cleaning.html">Cleaning Services</a>
-            <a class="btn btn-link" href="service.html">Ventilation Services</a>
+                    <a class="btn btn-link" href="service.html">Ventilation Services</a>
                     <a class="btn btn-link" href="service.html">Energy Efficiency Solutions</a>
                 </div>
 
@@ -427,6 +334,20 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <!-- Chatbot -->
+    <script>
+        (function () { if (!window.chatbase || window.chatbase("getState") !== "initialized") { window.chatbase = (...arguments) => { if (!window.chatbase.q) { window.chatbase.q = [] } window.chatbase.q.push(arguments) }; window.chatbase = new Proxy(window.chatbase, { get(target, prop) { if (prop === "q") { return target.q } return (...args) => target(prop, ...args) } }) } const onLoad = function () { const script = document.createElement("script"); script.src = "https://www.chatbase.co/embed.min.js"; script.id = "4xU93v0CCNA9hbAUktLw4"; script.domain = "www.chatbase.co"; document.body.appendChild(script) }; if (document.readyState === "complete") { onLoad() } else { window.addEventListener("load", onLoad) } })();
+    </script>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -444,9 +365,70 @@
 
     <!-- Form Handler -->
     <script src="js/form-handler.js"></script>
-    <script>
-        (function () { if (!window.chatbase || window.chatbase("getState") !== "initialized") { window.chatbase = (...arguments) => { if (!window.chatbase.q) { window.chatbase.q = [] } window.chatbase.q.push(arguments) }; window.chatbase = new Proxy(window.chatbase, { get(target, prop) { if (prop === "q") { return target.q } return (...args) => target(prop, ...args) } }) } const onLoad = function () { const script = document.createElement("script"); script.src = "https://www.chatbase.co/embed.min.js"; script.id = "4xU93v0CCNA9hbAUktLw4"; script.domain = "www.chatbase.co"; document.body.appendChild(script) }; if (document.readyState === "complete") { onLoad() } else { window.addEventListener("load", onLoad) } })();
-    </script>
+    <style>
+        /* Form loading state */
+        .form-loading {
+            position: relative;
+        }
+
+        .form-loading::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.7);
+            z-index: 10;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .form-loading.is-submitting::after {
+            opacity: 1;
+        }
+
+        /* Form validation styles */
+        .is-invalid {
+            border-color: #dc3545;
+            padding-right: calc(1.5em + 0.75rem);
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right calc(0.375em + 0.1875rem) center;
+            background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+        }
+
+        .is-valid {
+            border-color: #198754;
+            padding-right: calc(1.5em + 0.75rem);
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right calc(0.375em + 0.1875rem) center;
+            background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+        }
+
+        .invalid-feedback {
+            display: none;
+            width: 100%;
+            margin-top: 0.25rem;
+            font-size: 0.875em;
+            color: #dc3545;
+        }
+
+        .is-invalid~.invalid-feedback {
+            display: block;
+        }
+
+        /* Alert animations */
+        .alert {
+            transition: all 0.3s ease;
+        }
+
+        .alert-dismissible .btn-close {
+            padding: 1rem 1rem;
+        }
+    </style>
 </body>
 
 </html>

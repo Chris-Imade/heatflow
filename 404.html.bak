@@ -88,8 +88,7 @@
                     <a href="index.html" class="nav-item nav-link">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
                     <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="cleaning.html" class="nav-item nav-link">Cleaning</a>
-            <a href="quote.html" class="nav-item nav-link">Get a Quote</a>
+                    <a href="quote.html" class="nav-item nav-link">Get a Quote</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">

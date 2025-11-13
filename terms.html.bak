@@ -3,17 +3,17 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Privacy Policy | HeatFlow Experts</title>
+  <title>Terms and Conditions | HeatFlow Experts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
   <meta name="description"
-    content="Read the privacy policy for HeatFlow Experts. We are committed to protecting your personal data." />
+    content="Read the terms and conditions for HeatFlow Experts. By using our services, you agree to these terms." />
   <meta name="robots" content="noindex, follow" />
 
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://heatflowexperts.co.uk/privacy" />
+  <link rel="canonical" href="https://heatflowexperts.co.uk/terms" />
 
   <!-- Favicon -->
-  <link rel="icon" href="img/logo.ico" type="image/x-icon" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
@@ -21,18 +21,18 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://heatflowexperts.co.uk/privacy" />
-  <meta property="og:title" content="Privacy Policy | HeatFlow Experts" />
+  <meta property="og:url" content="https://heatflowexperts.co.uk/terms" />
+  <meta property="og:title" content="Terms and Conditions | HeatFlow Experts" />
   <meta property="og:description"
-    content="Read the privacy policy for HeatFlow Experts. We are committed to protecting your personal data." />
+    content="Read the terms and conditions for HeatFlow Experts. By using our services, you agree to these terms." />
   <meta property="og:image" content="https://heatflowexperts.co.uk/img/logo.png" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:url" content="https://heatflowexperts.co.uk/privacy" />
-  <meta name="twitter:title" content="Privacy Policy | HeatFlow Experts" />
+  <meta name="twitter:url" content="https://heatflowexperts.co.uk/terms" />
+  <meta name="twitter:title" content="Terms and Conditions | HeatFlow Experts" />
   <meta name="twitter:description"
-    content="Read the privacy policy for HeatFlow Experts. We are committed to protecting your personal data." />
+    content="Read the terms and conditions for HeatFlow Experts. By using our services, you agree to these terms." />
   <meta name="twitter:image" content="https://heatflowexperts.co.uk/img/logo.png" />
 
   <!-- Google Web Fonts -->
@@ -122,7 +122,6 @@
             <a href="index.html" class="nav-item nav-link">Home</a>
             <a href="about.html" class="nav-item nav-link">About</a>
             <a href="service.html" class="nav-item nav-link">Services</a>
-            <a href="cleaning.html" class="nav-item nav-link">Cleaning</a>
             <a href="quote.html" class="nav-item nav-link">Get a Quote</a>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
@@ -144,14 +143,14 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 py-5">
       <div class="container">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Privacy Policy</h1>
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Terms & Conditions</h1>
         <nav aria-label="breadcrumb animated slideInDown">
           <ol class="breadcrumb text-uppercase">
             <li class="breadcrumb-item">
               <a class="text-white" href="index.html">Home</a>
             </li>
             <li class="breadcrumb-item text-white active" aria-current="page">
-              Privacy Policy
+              Terms & Conditions
             </li>
           </ol>
         </nav>
@@ -159,70 +158,53 @@
     </div>
     <!-- Page Header End -->
 
-    <!-- Privacy Policy Content Start -->
+    <!-- Terms and Conditions Content Start -->
     <div class="container-xxl py-5">
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="text-secondary text-uppercase">Privacy Policy</h6>
+            <h6 class="text-secondary text-uppercase">Terms and Conditions</h6>
             <h1 class="mb-4">
-              Your Privacy is Important to Us
+              Our Terms of Service
             </h1>
             <p class="mb-4">
-              HeatFlow Experts Ltd ("us", "we", or "our") operates the https://heatflowexperts.co.uk website (the
-              "Service"). This page informs you of our policies regarding the collection, use, and disclosure of
-              personal data when you use our Service and the choices you have associated with that data.
+              Please read these terms and conditions carefully before using Our Service.
             </p>
 
-            <h2>Information Collection and Use</h2>
-            <p>We collect several different types of information for various purposes to provide and improve our Service
-              to you.</p>
+            <h2>1. Introduction</h2>
+            <p>Welcome to HeatFlow Experts Ltd. These Terms and Conditions govern your use of our website and the
+              services we provide. By accessing or using our services, you agree to be bound by these terms. If you
+              disagree with any part of the terms, then you may not access the service.</p>
 
-            <h3>Types of Data Collected</h3>
-            <h4>Personal Data</h4>
-            <p>While using our Service, we may ask you to provide us with certain personally identifiable information
-              that can be used to contact or identify you ("Personal Data"). Personally identifiable information may
-              include, but is not limited to:</p>
-            <ul>
-              <li>Email address</li>
-              <li>First name and last name</li>
-              <li>Phone number</li>
-              <li>Address, State, Province, ZIP/Postal code, City</li>
-              <li>Cookies and Usage Data</li>
-            </ul>
+            <h2>2. Services</h2>
+            <p>We provide plumbing, heating, and air conditioning services. All services are subject to availability and
+              we reserve the right to refuse service to anyone for any reason at any time.</p>
 
-            <h4>Usage Data</h4>
-            <p>We may also collect information on how the Service is accessed and used ("Usage Data"). This Usage Data
-              may include information such as your computer's Internet Protocol address (e.g. IP address), browser type,
-              browser version, the pages of our Service that you visit, the time and date of your visit, the time spent
-              on those pages, unique device identifiers and other diagnostic data.</p>
+            <h2>3. Payment</h2>
+            <p>Payment for services is due upon completion of the work. We accept various forms of payment, which will
+              be specified on your invoice. Late payments may incur additional charges.</p>
 
-            <h2>Use of Data</h2>
-            <p>HeatFlow Experts Ltd uses the collected data for various purposes:</p>
-            <ul>
-              <li>To provide and maintain the Service</li>
-              <li>To notify you about changes to our Service</li>
-              <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
-              <li>To provide customer care and support</li>
-              <li>To provide analysis or valuable information so that we can improve the Service</li>
-              <li>To monitor the usage of the Service</li>
-              <li>To detect, prevent and address technical issues</li>
-            </ul>
+            <h2>4. Cancellations</h2>
+            <p>If you need to cancel a scheduled service, please provide at least 24 hours' notice. Cancellations made
+              with less than 24 hours' notice may be subject to a cancellation fee.</p>
 
-            <h2>Security of Data</h2>
-            <p>The security of your data is important to us, but remember that no method of transmission over the
-              Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable
-              means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+            <h2>5. Limitation of Liability</h2>
+            <p>In no event shall HeatFlow Experts Ltd, nor its directors, employees, partners, agents, suppliers, or
+              affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including
+              without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from your
+              access to or use of or inability to access or use the Service.</p>
 
-            <h2>Changes to This Privacy Policy</h2>
-            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new
-              Privacy Policy on this page. We will let you know via email and/or a prominent notice on our Service,
-              prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.
-              You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy
-              are effective when they are posted on this page.</p>
+            <h2>6. Governing Law</h2>
+            <p>These Terms shall be governed and construed in accordance with the laws of the United Kingdom, without
+              regard to its conflict of law provisions.</p>
+
+            <h2>7. Changes</h2>
+            <p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision
+              is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What
+              constitutes a material change will be determined at our sole discretion.</p>
 
             <h2>Contact Us</h2>
-            <p>If you have any questions about this Privacy Policy, please contact us:</p>
+            <p>If you have any questions about these Terms, please contact us:</p>
             <ul>
               <li>By email: info@heatflowexperts.co.uk</li>
               <li>By phone number: 01604 908464</li>
@@ -231,7 +213,7 @@
         </div>
       </div>
     </div>
-    <!-- Privacy Policy Content End -->
+    <!-- Terms and Conditions Content End -->
   </main>
   <!-- End Main Content Wrapper -->
 
@@ -284,8 +266,7 @@
           <a class="btn btn-link" href="service.html">Plumbing Repairs</a>
           <a class="btn btn-link" href="service.html">Heating Installation</a>
           <a class="btn btn-link" href="service.html">Air Conditioning</a>
-          <a class="btn btn-link" href="cleaning.html">Cleaning Services</a>
-            <a class="btn btn-link" href="service.html">Ventilation Services</a>
+          <a class="btn btn-link" href="service.html">Ventilation Services</a>
           <a class="btn btn-link" href="service.html">Energy Efficiency Solutions</a>
         </div>
 
