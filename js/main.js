@@ -99,6 +99,7 @@
     if ($(".header-carousel").length) {
         $(".header-carousel").owlCarousel({
             autoplay: true,
+            autoplayTimeout: 30000, // 30 seconds delay before auto-scroll (prioritizes cleaning slide)
             smartSpeed: 1500,
             items: 1,
             dots: false,

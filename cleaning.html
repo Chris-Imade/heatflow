@@ -75,6 +75,126 @@
       letter-spacing: 2px;
     }
   </style>
+
+  <!-- JSON-LD Schema for LocalBusiness SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "HeatFlow Experts - Cleaning Services",
+    "image": "https://heatflowexperts.co.uk/img/logo.png",
+    "description": "Professional domestic and commercial cleaning services in Wellingborough and Northamptonshire. Deep cleans, end of tenancy, office cleaning, Airbnb turnarounds. Fully insured and DBS-checked cleaners.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wellingborough",
+      "addressRegion": "Northamptonshire",
+      "addressCountry": "GB"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "52.272994",
+      "longitude": "-0.875554"
+    },
+    "url": "https://heatflowexperts.co.uk/cleaning",
+    "telephone": "+441604908464",
+    "priceRange": "££",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "13:00"
+      }
+    ],
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Wellingborough"
+      },
+      {
+        "@type": "City",
+        "name": "Kettering"
+      },
+      {
+        "@type": "City",
+        "name": "Rushden"
+      },
+      {
+        "@type": "City",
+        "name": "Higham Ferrers"
+      },
+      {
+        "@type": "City",
+        "name": "Irthlingborough"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Cleaning Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Regular Domestic Cleaning",
+            "description": "Weekly or fortnightly cleaning service for homes"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Deep Cleaning",
+            "description": "Thorough top-to-bottom cleaning service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "End of Tenancy Cleaning",
+            "description": "Comprehensive move-out cleaning to landlord standards"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Office Cleaning",
+            "description": "Professional commercial cleaning for businesses"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Airbnb Turnaround Cleaning",
+            "description": "Fast turnaround cleaning for short-term rentals"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Oven & Carpet Cleaning",
+            "description": "Specialist cleaning for ovens, carpets, and upholstery"
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "127"
+    }
+  }
+  </script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -185,262 +305,339 @@
     </div>
     <!-- Page Header End -->
 
-    <!-- Service Start -->
+    <!-- Main Content Start -->
     <div class="container-xxl py-5">
       <div class="container">
-
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-          <h6 class="text-secondary text-uppercase">Our Services</h6>
-          <h1 class="mb-5">Explore Our Expert Services</h1>
+        <!-- Introduction Section -->
+        <div class="row g-5 mb-5">
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-secondary text-uppercase">Professional Cleaning</h6>
+            <h1 class="mb-4">Cleaning Services in Wellingborough & Northamptonshire</h1>
+            <p class="mb-4 fs-5">
+              Whether you need a one-off deep clean, regular domestic help, or a full end-of-tenancy service, HeatFlow Experts delivers spotless results every time. Our experienced, DBS-checked cleaners use eco-friendly products and professional equipment to transform your home or workplace.
+            </p>
+            <p class="mb-4">
+              From busy families to landlords and Airbnb hosts, we tailor our cleaning services to fit your schedule and budget. All work is fully insured, and we guarantee 100% satisfaction or we'll return to make it right — free of charge.
+            </p>
+          </div>
         </div>
-        <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
-          <!-- Boiler Installation & Servicing -->
-          <div class="bg-light p-4"
-            style="height: 580px; display: flex; flex-direction: column; justify-content: space-between;">
-            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
-              style="width: 75px; height: 75px">
-              <i class="fa fa-fire fa-2x text-primary"></i>
+
+        <!-- Service Categories Section -->
+        <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="text-secondary text-uppercase">What We Offer</h6>
+          <h2 class="mb-5">Our Cleaning Services</h2>
+        </div>
+
+          <!-- Regular Domestic Cleaning -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item rounded h-100" style="background: white; border: 2px solid #e9ecef; padding: 30px;">
+              <div class="text-center mb-4">
+                <img src="img/cleaning-services/pexels-karola-g-4239033.jpg" class="img-fluid rounded mb-3" alt="Regular Domestic Cleaning" style="height: 200px; width: 100%; object-fit: cover;">
+                <div class="btn-lg-square bg-primary text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-home fa-2x"></i>
+                </div>
+              </div>
+              <h4 class="mb-3">Regular Domestic Cleaning</h4>
+              <p class="mb-3">Keep your home fresh and tidy with our weekly or fortnightly cleaning service. We handle everything from vacuuming and mopping to dusting and kitchen cleaning.</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Weekly or fortnightly visits</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Flexible scheduling</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Same cleaner each time</li>
+              </ul>
             </div>
-            <h4 class="mb-3">Boiler Installation & Servicing</h4>
-            <p class="mb-3">
-              Stay warm all year round with expert boiler installations and maintenance from our certified engineers.
-            </p>
-            <p class="mb-3" style="font-size: 0.95rem;">
-              We install, repair, and service all major boiler brands, offering fast turnaround and next-day
-              availability.
-            </p>
-            <ul class="list-unstyled mb-3">
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Combi, system, and regular boilers</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Full Gas Safe & Building Regulations
-                compliance</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Free filter and CO detector with every
-                install</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Next-day installation available</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>System balancing and flushing included</li>
-            </ul>
-            <p class="text-primary fw-medium mb-0" style="font-size: 0.9rem;">
-              All backed by our 2-Year Workmanship Guarantee and 5-Year Pipework Warranty.
-            </p>
           </div>
 
-          <!-- Heat Pumps -->
-          <div class="bg-light p-4"
-            style="height: 580px; display: flex; flex-direction: column; justify-content: space-between;">
-            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
-              style="width: 75px; height: 75px">
-              <i class="fa fa-leaf fa-2x text-primary"></i>
+          <!-- Deep Cleaning -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-item rounded h-100" style="background: white; border: 2px solid #e9ecef; padding: 30px;">
+              <div class="text-center mb-4">
+                <img src="img/cleaning-services/pexels-lara-jameson-9324302.jpg" class="img-fluid rounded mb-3" alt="Deep Cleaning" style="height: 200px; width: 100%; object-fit: cover;">
+                <div class="btn-lg-square bg-primary text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-broom fa-2x"></i>
+                </div>
+              </div>
+              <h4 class="mb-3">Deep Cleaning</h4>
+              <p class="mb-3">A thorough, top-to-bottom clean covering every corner, skirting board, and hard-to-reach area. Perfect for spring cleaning or post-renovation.</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Behind appliances & furniture</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Window sills & frames</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Detailed bathroom & kitchen</li>
+              </ul>
             </div>
-            <h4 class="mb-3">Heat Pumps (Air & Ground Source)</h4>
-            <p class="mb-3">
-              Go green and cut your energy bills with the latest air source and ground source heat pumps.
-            </p>
-            <p class="mb-3" style="font-size: 0.95rem;">
-              Our specialists handle everything from design to installation, ensuring efficient, quiet, and reliable
-              systems for your property.
-            </p>
-            <ul class="list-unstyled mb-3">
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Fully accredited installation</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Ideal for retrofit and new builds</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Smart thermostat integration</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Maintenance and performance testing</li>
-            </ul>
-            <p class="text-primary fw-medium mb-0" style="font-size: 0.9rem;">
-              Join the renewable revolution with Heatflow Experts — your local low-carbon heating specialists.
-            </p>
           </div>
 
-          <!-- Air Conditioning & Ventilation -->
-          <div class="bg-light p-4"
-            style="height: 580px; display: flex; flex-direction: column; justify-content: space-between;">
-            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
-              style="width: 75px; height: 75px">
-              <i class="fa fa-snowflake fa-2x text-primary"></i>
+          <!-- End of Tenancy -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item rounded h-100" style="background: white; border: 2px solid #e9ecef; padding: 30px;">
+              <div class="text-center mb-4">
+                <img src="img/cleaning-services/pexels-karola-g-4239130.jpg" class="img-fluid rounded mb-3" alt="End of Tenancy Cleaning" style="height: 200px; width: 100%; object-fit: cover;">
+                <div class="btn-lg-square bg-primary text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-key fa-2x"></i>
+                </div>
+              </div>
+              <h4 class="mb-3">End of Tenancy Cleaning</h4>
+              <p class="mb-3">Moving out? Our comprehensive end-of-tenancy clean meets landlord and agency standards, helping you secure your full deposit back.</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Inventory checklist included</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Oven & appliance deep clean</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>48-hour guarantee</li>
+              </ul>
             </div>
-            <h4 class="mb-3">Air Conditioning & Ventilation</h4>
-            <p class="mb-3">
-              Keep your home cool, fresh, and comfortable all year round.
-            </p>
-            <p class="mb-3" style="font-size: 0.95rem;">
-              We supply, install, and maintain energy-efficient air conditioning and ventilation systems for homes and
-              small businesses.
-            </p>
-            <ul class="list-unstyled mb-3">
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Wall-mounted, ducted, and split systems</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Improved indoor air quality and airflow</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Annual servicing and filter cleaning</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>F-Gas certified engineers</li>
-            </ul>
           </div>
 
-          <!-- Smart Thermostats & Zoning -->
-          <div class="bg-light p-4"
-            style="height: 580px; display: flex; flex-direction: column; justify-content: space-between;">
-            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
-              style="width: 75px; height: 75px">
-              <i class="fa fa-mobile-alt fa-2x text-primary"></i>
+          <!-- After-Builders -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="service-item rounded h-100" style="background: white; border: 2px solid #e9ecef; padding: 30px;">
+              <div class="text-center mb-4">
+                <img src="img/cleaning-services/pexels-mastercowley-634007.jpg" class="img-fluid rounded mb-3" alt="After-Builders Cleaning" style="height: 200px; width: 100%; object-fit: cover;">
+                <div class="btn-lg-square bg-primary text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-hard-hat fa-2x"></i>
+                </div>
+              </div>
+              <h4 class="mb-3">After-Builders Cleaning</h4>
+              <p class="mb-3">Dust, debris, and paint splatters removed. We'll make your newly renovated space move-in ready with our specialist post-construction clean.</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Dust & debris removal</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Paint splatter cleaning</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Window & floor polishing</li>
+              </ul>
             </div>
-            <h4 class="mb-3">Smart Thermostats & Zoning</h4>
-            <p class="mb-3">
-              Control your heating from anywhere with smart thermostat technology.
-            </p>
-            <p class="mb-3" style="font-size: 0.95rem;">
-              We supply and install Hive, Nest, and Tado systems — helping you save energy and reduce costs.
-            </p>
-            <ul class="list-unstyled mb-3">
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Wireless heating control</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Room-by-room zoning</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Setup, app configuration & user training
-              </li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Compatible with major brands and boilers
-              </li>
-            </ul>
           </div>
 
-          <!-- Energy-Saving Upgrades -->
-          <div class="bg-light p-4"
-            style="height: 580px; display: flex; flex-direction: column; justify-content: space-between;">
-            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
-              style="width: 75px; height: 75px">
-              <i class="fa fa-battery-three-quarters fa-2x text-primary"></i>
+          <!-- Office Cleaning -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item rounded h-100" style="background: white; border: 2px solid #e9ecef; padding: 30px;">
+              <div class="text-center mb-4">
+                <img src="img/cleaning-services/pexels-karola-g-4239113.jpg" class="img-fluid rounded mb-3" alt="Office Cleaning" style="height: 200px; width: 100%; object-fit: cover;">
+                <div class="btn-lg-square bg-primary text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-building fa-2x"></i>
+                </div>
+              </div>
+              <h4 class="mb-3">Office & Commercial Cleaning</h4>
+              <p class="mb-3">Professional cleaning for offices, retail spaces, and small businesses. Daily, weekly, or monthly contracts available to suit your needs.</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Flexible scheduling</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Desk, kitchen & restroom cleaning</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Waste removal & recycling</li>
+              </ul>
             </div>
-            <h4 class="mb-3">Energy-Saving Upgrades</h4>
-            <p class="mb-3">
-              Simple upgrades can make a big difference.
-            </p>
-            <p class="mb-3" style="font-size: 0.95rem;">
-              We provide energy-saving improvements that enhance system performance and efficiency.
-            </p>
-            <ul class="list-unstyled mb-3">
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>TRVs and thermostatic controls</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Pipe insulation and system balancing</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Power flushing & filter fitting</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Water-saving fittings</li>
-            </ul>
           </div>
 
-          <!-- Plumbing & Maintenance -->
-          <div class="bg-light p-4"
-            style="height: 580px; display: flex; flex-direction: column; justify-content: space-between;">
-            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
-              style="width: 75px; height: 75px">
-              <i class="fa fa-wrench fa-2x text-primary"></i>
+          <!-- Airbnb Turnaround -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="service-item rounded h-100" style="background: white; border: 2px solid #e9ecef; padding: 30px;">
+              <div class="text-center mb-4">
+                <img src="img/cleaning-services/pexels-karola-g-4239141.jpg" class="img-fluid rounded mb-3" alt="Airbnb Turnaround" style="height: 200px; width: 100%; object-fit: cover;">
+                <div class="btn-lg-square bg-primary text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-bed fa-2x"></i>
+                </div>
+              </div>
+              <h4 class="mb-3">Airbnb Turnaround Cleaning</h4>
+              <p class="mb-3">Fast, reliable turnaround cleaning for short-term rentals. We'll have your property guest-ready in no time, with fresh linens and restocked essentials.</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Same-day turnaround available</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Linen change & laundry service</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Restocking toiletries</li>
+              </ul>
             </div>
-            <h4 class="mb-3">Plumbing & Maintenance</h4>
-            <p class="mb-3">
-              From leaks and blockages to full system replacements — our experienced plumbers are available for reactive
-              repairs and maintenance.
-            </p>
-            <ul class="list-unstyled mb-3">
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Emergency callouts</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Bathroom & kitchen installations</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Tap, valve, and cylinder replacements</li>
-              <li class="mb-2"><i class="fa fa-check text-success me-2"></i>Pipework repairs and upgrades</li>
-            </ul>
+          </div>
+
+          <!-- Oven Cleaning -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="service-item rounded h-100" style="background: white; border: 2px solid #e9ecef; padding: 30px;">
+              <div class="text-center mb-4">
+                <img src="img/cleaning-services/pexels-pixabay-209230.jpg" class="img-fluid rounded mb-3" alt="Oven Cleaning" style="height: 200px; width: 100%; object-fit: cover;">
+                <div class="btn-lg-square bg-primary text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-fire fa-2x"></i>
+                </div>
+              </div>
+              <h4 class="mb-3">Oven & Appliance Cleaning</h4>
+              <p class="mb-3">Specialist oven cleaning using non-caustic, eco-friendly products. We'll restore your oven, hob, and extractor to showroom condition.</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Non-toxic cleaning solutions</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Includes racks & trays</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Hob & extractor cleaning</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Carpet Cleaning -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="service-item rounded h-100" style="background: white; border: 2px solid #e9ecef; padding: 30px;">
+              <div class="text-center mb-4">
+                <img src="img/cleaning-services/pexels-antonio-lorenzana-bermejo-353570724-14965464.jpg" class="img-fluid rounded mb-3" alt="Carpet Cleaning" style="height: 200px; width: 100%; object-fit: cover;">
+                <div class="btn-lg-square bg-primary text-white rounded-circle mx-auto mb-3" style="width: 70px; height: 70px; display: flex; align-items: center; justify-content: center;">
+                  <i class="fas fa-couch fa-2x"></i>
+                </div>
+              </div>
+              <h4 class="mb-3">Carpet & Upholstery Cleaning</h4>
+              <p class="mb-3">Professional steam cleaning for carpets, rugs, and upholstery. Remove stains, odors, and allergens with our deep-cleaning treatment.</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Hot water extraction method</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Stain & odor removal</li>
+                <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Fast drying time</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Why Choose Us Section -->
+        <div class="row g-5 mb-5 bg-light p-5 rounded">
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+            <h2 class="mb-4 text-center">Why Choose HeatFlow Experts for Cleaning?</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-flex align-items-start mb-4">
+                  <i class="fas fa-shield-alt fa-2x text-primary me-3 mt-1"></i>
+                  <div>
+                    <h5>Fully Insured & DBS-Checked</h5>
+                    <p>All our cleaners are vetted, insured, and background-checked for your peace of mind.</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-start mb-4">
+                  <i class="fas fa-leaf fa-2x text-primary me-3 mt-1"></i>
+                  <div>
+                    <h5>Eco-Friendly Products</h5>
+                    <p>We use environmentally friendly, non-toxic cleaning products that are safe for children and pets.</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-start mb-4">
+                  <i class="fas fa-clock fa-2x text-primary me-3 mt-1"></i>
+                  <div>
+                    <h5>Flexible Scheduling</h5>
+                    <p>Book online, by phone, or via WhatsApp. We work around your schedule, including evenings and weekends.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex align-items-start mb-4">
+                  <i class="fas fa-award fa-2x text-primary me-3 mt-1"></i>
+                  <div>
+                    <h5>100% Satisfaction Guarantee</h5>
+                    <p>Not happy? We'll return within 48 hours to re-clean any areas you're not satisfied with — free of charge.</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-start mb-4">
+                  <i class="fas fa-pound-sign fa-2x text-primary me-3 mt-1"></i>
+                  <div>
+                    <h5>Fixed, Transparent Pricing</h5>
+                    <p>No hidden fees. Get an instant quote online or over the phone before booking.</p>
+                  </div>
+                </div>
+                <div class="d-flex align-items-start mb-4">
+                  <i class="fas fa-tools fa-2x text-primary me-3 mt-1"></i>
+                  <div>
+                    <h5>Professional Equipment</h5>
+                    <p>We bring all the tools, products, and equipment needed — you don't need to provide anything.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="row mb-5">
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="text-center mb-5">
+              <h6 class="text-secondary text-uppercase">FAQ</h6>
+              <h2 class="mb-4">Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="accordion" id="cleaningFAQ">
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    <strong>How much does a cleaning service cost?</strong>
+                  </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#cleaningFAQ">
+                  <div class="accordion-body">
+                    Prices vary depending on the type and size of the job. Regular domestic cleaning starts from £15/hour. Deep cleans and end-of-tenancy services are quoted based on property size and condition. Contact us for a free, no-obligation quote tailored to your needs.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    <strong>Do I need to provide cleaning products or equipment?</strong>
+                  </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#cleaningFAQ">
+                  <div class="accordion-body">
+                    No\! We bring all professional-grade equipment and eco-friendly cleaning products. You don't need to provide anything. If you have specific products you'd like us to use, just let us know in advance.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    <strong>Are your cleaners insured and background-checked?</strong>
+                  </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#cleaningFAQ">
+                  <div class="accordion-body">
+                    Yes, absolutely. All our cleaners are fully insured, DBS-checked, and trained to professional standards. We take security and trust seriously, so you can feel confident welcoming our team into your home or business.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    <strong>What areas do you cover?</strong>
+                  </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#cleaningFAQ">
+                  <div class="accordion-body">
+                    We serve Wellingborough and the surrounding Northamptonshire area, including Kettering, Rushden, Higham Ferrers, Irthlingborough, and nearby towns. Contact us to confirm coverage for your postcode.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                    <strong>What if I'm not satisfied with the cleaning?</strong>
+                  </button>
+                </h2>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#cleaningFAQ">
+                  <div class="accordion-body">
+                    We offer a 100% satisfaction guarantee. If you're not happy with any aspect of our service, contact us within 48 hours and we'll return to re-clean the areas in question at no extra cost. Your satisfaction is our priority.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA Section -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="bg-primary text-white text-center p-5 rounded wow fadeInUp" data-wow-delay="0.1s">
+              <h2 class="text-white mb-4">Get a Fixed Quote in Minutes</h2>
+              <p class="fs-5 mb-4">Call, WhatsApp, or Book Online Today\!</p>
+              <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="tel:01604908464" class="btn btn-light btn-lg px-5 py-3">
+                  <i class="fas fa-phone me-2"></i>Call Now
+                </a>
+                <a href="https://wa.me/447506323070" class="btn btn-success btn-lg px-5 py-3" target="_blank">
+                  <i class="fab fa-whatsapp me-2"></i>WhatsApp
+                </a>
+                <a href="quote.html" class="btn btn-secondary btn-lg px-5 py-3">
+                  <i class="fas fa-calendar-check me-2"></i>Book Online
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Main Content End -->
 
-    <!-- Booking Start -->
-    <div class="container-fluid my-5 px-0">
-      <div class="video wow fadeInUp" data-wow-delay="0.1s">
-        <h1 class="text-white mb-4">24/7 Emergency Services</h1>
-        <h3 class="text-white mb-0">
-          Plumbing, Heating, Air Conditioning & More
-        </h3>
-      </div>
-    </div>
-    <!-- Booking End -->
 
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-      <div class="container">
-        <div class="text-center">
-          <h6 class="text-secondary text-uppercase">Testimonials</h6>
-          <h1 class="mb-5">What Our Clients Say!</h1>
-        </div>
-        <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
-          <div class="testimonial-item text-center">
-            <div class="testimonial-text bg-light text-center p-4 mb-4">
-              <p class="mb-0">
-                "HeatFlow Experts provided outstanding service when our heating
-                system broke down in the middle of winter. Quick, professional,
-                and reliable!"
-              </p>
-            </div>
-            <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-1.jpg"
-              style="width: 80px; height: 80px" />
-            <div class="mb-2">
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-            </div>
-            <h5 class="mb-1">John Smith</h5>
-            <p class="m-0">Homeowner</p>
-          </div>
-          <div class="testimonial-item text-center">
-            <div class="testimonial-text bg-light text-center p-4 mb-4">
-              <p class="mb-0">
-                "Exceptional service! Their team replaced our outdated HVAC
-                system, and now our home is more energy-efficient than ever."
-              </p>
-            </div>
-            <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-2.jpg"
-              style="width: 80px; height: 80px" />
-            <div class="mb-2">
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-            </div>
-            <h5 class="mb-1">Sarah Johnson</h5>
-            <p class="m-0">Property Manager</p>
-          </div>
-          <div class="testimonial-item text-center">
-            <div class="testimonial-text bg-light text-center p-4 mb-4">
-              <p class="mb-0">
-                "The emergency plumbing service was lifesaving! They fixed a
-                major leak within hours of my call. Highly recommended."
-              </p>
-            </div>
-            <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-3.jpg"
-              style="width: 80px; height: 80px" />
-            <div class="mb-2">
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-            </div>
-            <h5 class="mb-1">Emily Davis</h5>
-            <p class="m-0">Business Owner</p>
-          </div>
-          <div class="testimonial-item text-center">
-            <div class="testimonial-text bg-light text-center p-4 mb-4">
-              <p class="mb-0">
-                "HeatFlow Experts revamped our ventilation system, and the air
-                quality in our office has improved significantly. Great work!"
-              </p>
-            </div>
-            <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-4.jpg"
-              style="width: 80px; height: 80px" />
-            <div class="mb-2">
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-              <small class="fa fa-star text-secondary"></small>
-            </div>
-            <h5 class="mb-1">Michael Brown</h5>
-            <p class="m-0">Facility Manager</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Testimonial End -->
   </main>
   <!-- End Main Content Wrapper -->
 
@@ -490,11 +687,11 @@
         <!-- Services Section -->
         <div class="col-lg-3 col-md-6">
           <h4 class="text-light mb-4">Services</h4>
+          <a class="btn btn-link" href="cleaning.html"><strong>Cleaning Services</strong></a>
           <a class="btn btn-link" href="service.html">Plumbing Repairs</a>
           <a class="btn btn-link" href="service.html">Heating Installation</a>
           <a class="btn btn-link" href="service.html">Air Conditioning</a>
-          <a class="btn btn-link" href="cleaning.html">Cleaning Services</a>
-            <a class="btn btn-link" href="service.html">Ventilation Services</a>
+          <a class="btn btn-link" href="service.html">Ventilation Services</a>
           <a class="btn btn-link" href="service.html">Energy Efficiency Solutions</a>
         </div>
 
