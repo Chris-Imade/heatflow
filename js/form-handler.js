@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function getEndpoint(formType) {
-    const baseUrl = 'https://heatflow-server.onrender.com/api';
+    const baseUrl = 'https://heatflow-server-lgjp.onrender.com';
     const endpoints = {
       contact: `${baseUrl}/contact`,
       quote: `${baseUrl}/quotes`,
